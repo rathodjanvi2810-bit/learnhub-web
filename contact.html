@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Document</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+         body{
+              background-color: rgb(228, 223, 223);
+              color: black;
+         }
+         .contrain{
+              width: 100%;
+              margin: auto;
+         }
+         .first{
+              background-color:rgb(104, 176, 243);
+              color: white;
+               flex-wrap: wrap;
+               justify-content: space-between;
+               display: flex;
+               padding-left: 40px;
+               padding-right: 5px;        
+         }
+       
+          ul {
+            list-style: none;
+            display: flex;
+            gap: 35px;
+            float:right;
+            float:top ;
+            padding-top: 8px;
+            padding-right: 30px;
+        }
+
+        a {
+            color:white;
+            text-decoration: none;
+            font-weight: 15px;
+            position: relative;
+            transition: color 0.3s;
+        }
+        .sec{
+            background-color: white;
+            width: 390px;
+            padding: 15px 15px 15px 15px;
+            margin-top: 15px;
+            margin-left: 0px;
+        }
+        .box{
+             background-color: rgb(228, 223, 223);
+             padding-bottom: 10px;
+             padding-top: 0px;
+        }
+         .box p{
+             padding-bottom: 0px;
+             margin-bottom: 5px;
+             padding-left: 10px;
+             padding-top: 5px;
+        }
+        small{
+             padding-left: 38px;
+             
+        }
+        .third{
+             width: 390px; 
+             background-color: white;
+              padding: 15px 15px 15px 15px;
+            margin-top: 15px;
+            margin-left: 50px;
+        }
+        .main{
+              display: flex;
+              justify-content: center;
+        }
+        input{
+              width: 370px;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 5px;
+              margin-bottom: 4px;
+        }
+        .third p{
+            padding-bottom: 0px;
+            margin-bottom: 4px;
+        }
+        select{
+              width: 380px;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 5px;
+              margin-bottom: 4px;
+        }
+        button{
+             width: 380px;
+             background-color: rgb(79, 157, 230);
+             color: white;
+             border-radius: 2px;
+             padding: 8px;
+             border: none;
+             margin-top: 15px;
+        }
+        footer{
+               background-color:rgba(33, 16, 128, 0.842) ;
+               text-align: center;
+               color: white;
+               text-decoration: none;
+               margin-top: 20px;
+         }
+         .f{
+               color: white;
+               padding-bottom: 5px;
+               padding-top: 10px;
+         }
+         .e{
+               padding-bottom: 10px;
+         }
+    </style>
+</head>
+<body>
+        <div class="constrain">
+          <div class="first">
+           <div class="left">
+             <h3>📖 LearnHub</h3>
+           </div>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="Cources.html">Cources</a></li>
+               <li><a href="enrolment.html">Enroll</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+        <div class="main">
+           <div class="sec">
+                 <h3>Get In Touch</h3>
+                 <p>Have questions ? We'd love to hear from you.send us a message and we'll respond as soon as possible.</p>
+                 <div class="box">
+                      <p>🖂 &nbsp; Email</p>
+                         <small>info@learnhub.com</small><br>
+                         <small>support@learnhub.com</small>
+                 </div>     
+                 <div class="box">
+                      <p>📞 &nbsp; Phone</p>
+                         <small>+91 1234567890</small><br>
+                         <small>Mon-Fri: 9:00 AM - 6-00 PM</small>
+                 </div> 
+                  <div class="box">
+                      <p>📌 &nbsp; Address</p>
+                         <small>123 Education Street</small><br>
+                         <small>Bangalore, Karnataka 560001</small>
+                 </div>  
+                  <div class="box">
+                      <p>⏱ &nbsp; Business Hours</p>
+                         <small>Mon-Fri: 9:00 AM - 6-00PM</small><br>
+                         <small>Saturday: 10:00 AM - 4:00 PM</small>
+                 </div>        
+                </div>
+                <div class="third">
+                     <h3>Send Us a message</h3>
+                     <p>Your Name</p>    
+                     <input type="text" placeholder="Enter your Name ">
+
+                      <p>Your Email</p>    
+                     <input type="text" placeholder="Enter your email ">
+
+                     <p>Subject</p>
+                     <select>
+                         <option>Select a subject</option>
+                          <option>Complete Web Development Cource</option>
+                          <option>Python Programming Masterclass</option>
+                         <option>Data Science Fundamentals</option>
+                        <option>Mobile App Development</option>
+                        <option>UI/UX Design Complete Cource</option>
+                        <option>Artificial Intelligence Basics</option>
+
+                     </select>
+
+                     <p>Message</p>
+                     <textarea rows="5" cols="49" placeholder="write your message here.."></textarea>
+
+                     <button>Send Message</button>
+                </div>
+                </div>
+                <footer>
+                    <div class="f">&copy 2024 LearnHub All rights reserved </div>
+                    <div class="e">Email:<a href="#">info@example.com</a> |
+                        <a href="#">+91 1234567890</a></div>
+            </footer>
+        </div>
+</body>
+</html>
